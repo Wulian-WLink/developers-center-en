@@ -1,17 +1,17 @@
 
-#### [首页](?file=首页 "返回首页")
+#### [Home Page](?file=Home Page "返回首页")
 
-##### 平台简介
-- [智能家居平台介绍](?file=01-平台简介/001-智能家居平台介绍 "智能家居平台介绍")
+##### Platform Introduction
+- [Smart Home platform introduction](?file=01-Platform Introduction/001-Smart Home platform introduction "Smart Home platform introduction")
 
-##### 网关开发
-- [快速开发指引](?file=02-网关开发/01-快速开发指引 "快速开发指引")
-- [基础接口](?file=02-网关开发/02-基础接口 "基础接口")
+##### Gateway Development
+- [Quick development guide](?file=02-Gateway Development/01-Quick development guide "Quick development guide")
+- [Basic interface](?file=02-Gateway Development/02-Basic interface "Basic interface")
 
-##### 客户端接开发
-- [快速开发指引](?file=03-客户端接开发/001-快速开发指引 "快速开发指引")
-- [摄像头Android_SDK_v6](?file=03-客户端接开发/002-摄像头Android_SDK_v6 "摄像头Android_SDK_v6")
+##### Client Development
+- [Quick development instruction](?file=03-Client Development/001-Quick development instruction "Quick development instruction")
+- [Camera Android_SDK_v6](?file=03-Client Development/002-Camera Android_SDK_v6 "Camera Android_SDK_v6")
 
-##### 设备开发
-- [快速开发指引](?file=04-设备开发/0001-快速开发指引 "快速开发指引")
-- [通用翻译器-OX](?file=04-设备开发/0002-通用翻译器-OX "通用翻译器-OX")
+##### Device Development
+- [Quick development instruction](?file=04-Device Development/0001-Quick development instruction "Quick development instruction")
+- [General translator-OX](?file=04-Device Development/0002-General translator-OX "General translator-OX")
