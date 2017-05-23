@@ -1,4 +1,4 @@
-## For this part, currently only Chinese version is available. You can use google translation to translate into English for your reference.
+## For this part, currently only Chinese version is available. You can use google translation to translate into English for your reference. 
 
 ## 概念解释与约定
 
