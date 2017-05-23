@@ -1,5 +1,5 @@
-# 平台介绍  
+# Platform introduction  
 
-物联智能家居平台从底层到上层可以分为终端层、主机层、服务层和客户端层。终端层负责对物理世界的感知和控制；主机层负责收集汇总终端层的数据，上报给服务层，并且负责基本的自动控制处理；服务层负责存储和分析终端的数据，并且负责支持全球范围客户端到主机的连接通道；客户端提供使用界面给最终用户，是智能家居系统与客户之间的接口。  
+Wulian Wlink Smart Home platfrom consists of terminal layer, host machine layer, service layer and client layer. Terminal layer is in charge of perception and control to physical world.; Host machine layer is in charge of collecting all data from terminals and report to service layer, and also in charge of basic automation control processing; Service layer is in charge of store and analysis of terminal data, and support piplines from client to host machine all over the world; Client layer is in charge of providing user interface to final user and act as a connection between smart home system and customers.
 
-![平台总架构](WLink/images/frame.png "架构框图")  
+![Platform architecture](WLink/images/frame.png "架构框图")  

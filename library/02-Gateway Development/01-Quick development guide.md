@@ -26,9 +26,10 @@ The new generation (v6) gateway platform consists of device process, SmartHome_v
 ## Development process
 1. Connect gateway and development host machine with same router. Gateway WAN port by defalt does not enable telnet, need to connect router LAN cable to LAN port of the gateway and make sure the development host machine is configured in subnet 192.168.188.x.
 2. Use tools like putty and telnet access 192.168.188.1 on development host machine. By default user name is "root" and password is "wulian".
-3. Download [Gateway SDK](https://github.com/Wulian-WLink/GatewaySDK_v6.git) and develop 3rd party cloud process.
-4. After development is completed, download the firmware (the 3rd party cloud process) onto the gateway. The gateway supports tft and wget method for file transfer.
-5. Run the firmware (the 3rd party cloud process).
+3. Download [Gateway SDK](https://github.com/Wulian-WLink/GatewaySDK_v6.git).
+4. Refer to [Device data protocol](https://wulian-wlink.github.io/developers-center-en/?file=05-Device%20Protocol/01-Overview) and develop 3rd party cloud process firmware.
+5. After development is completed, download the firmware (the 3rd party cloud process) onto the gateway. The gateway supports tft and wget method for file transfer.
+6. Run the firmware (the 3rd party cloud process).
 
 ## ubuntu debug
 为提高开发效率，实现断点调试。用户可以将第三方云进程运行在ubuntu主机，设备进程运行在网关上，ubuntu和网关需在同一个局域网中。  从而实现第三方云进程代码使用qt或vs断点调试。  
