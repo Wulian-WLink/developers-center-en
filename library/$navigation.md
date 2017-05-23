@@ -1,5 +1,5 @@
 
-#### [首页](?file=首页 "返回首页")
+#### [Home page](?file=首页 "返回首页")
 
 ##### Platform Introduction
 - [Smart Home platform introduction](?file=01-Platform Introduction/001-Smart Home platform introduction "Smart Home platform introduction")
