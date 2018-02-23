@@ -32,10 +32,10 @@ The new generation (v6) gateway platform consists of device process, SmartHome_v
 6. Run the firmware (the 3rd party cloud process).
 
 ## ubuntu debug
-To improve develop efficiency and realize breakpoint debugging, user can 为提高开发效率，实现断点调试。用户可以将第三方云进程运行在ubuntu主机，设备进程运行在网关上，ubuntu和网关需在同一个局域网中。  从而实现第三方云进程代码使用qt或vs断点调试。  
-需要做如下配置：
-1. 当mqtt服务端运行在网关上。（默认）  
-在当前第三方云进程的当前目录建立x86Debug_TP文件。内容如下：  
+To improve develop efficiency and realize breakpoint debugging, user can run 3rd party cloud process on ubuntu, while device process running on the gateway. In this case ubuntu and gateway need to be within the same LAN. So under this condition, user can use QT or VS to do breakpoint debugging for 3rd party cloud process.  
+Below config needs to be done:
+1. In case mqtt server running on the gateway (default).  
+Under current 3rd party cloud process directory create x86Debug_TP with below content:  
 ```
 {
   "gwinfo":{
@@ -45,12 +45,12 @@ To improve develop efficiency and realize breakpoint debugging, user can 为提�
         }
     }
 }
-//gwid为当前调试网关的网关Id。gwIp为网关的wan Ip。
+//gwid is the current debugging gateway ID. gwIp is gateway's WAN IP.
 ```
-2. 当mqtt服务端运行在ubuntu主机上。（如果ubuntu ping不通网关，但是网关能ping通ubuntu，则使用此模式。）  
-a.停用网关上的mqtt服务。启用ubuntu上的mqtt服务。  
-b. 实现第一步。但是gwip为mqtt服务端所在的ubuntu主机的ip。  
-c. 在网关设备进程的当前目录建立x86Debug_UP文件。内容如下：
+2. In case mqtt server running on bubuntu. (if ubuntu cannot ping gateway successfully but gateway can ping ubuntu successfully, please use this mode)  
+a. stop mqtt service on the gateway and start mqtt service on ubuntu.  
+b. do as above step 1, but gwip is ubuntu's IP.  
+c. under gateway device process directory create x86Debug_UP with below content:
 ```
 {
    "gwinfo" : {
@@ -59,5 +59,5 @@ c. 在网关设备进程的当前目录建立x86Debug_UP文件。内容如下：
       }
    }
 }
-//gwip为mqtt服务端所在的ubuntu主机的ip。
+//gwip is ubuntu's IP
 ```
