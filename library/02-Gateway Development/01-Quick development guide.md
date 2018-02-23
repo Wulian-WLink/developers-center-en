@@ -32,7 +32,7 @@ The new generation (v6) gateway platform consists of device process, SmartHome_v
 6. Run the firmware (the 3rd party cloud process).
 
 ## ubuntu debug
-为提高开发效率，实现断点调试。用户可以将第三方云进程运行在ubuntu主机，设备进程运行在网关上，ubuntu和网关需在同一个局域网中。  从而实现第三方云进程代码使用qt或vs断点调试。  
+To improve develop efficiency and realize breakpoint debugging,为提高开发效率，实现断点调试。用户可以将第三方云进程运行在ubuntu主机，设备进程运行在网关上，ubuntu和网关需在同一个局域网中。  从而实现第三方云进程代码使用qt或vs断点调试。  
 需要做如下配置：
 1. 当mqtt服务端运行在网关上。（默认）  
 在当前第三方云进程的当前目录建立x86Debug_TP文件。内容如下：  
